@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Moura - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img class="profile-pic" src="img/Foto.jpeg" alt="Foto de Perfil">
+            <div class="profile-info">
+                <h1>Arthur Moura Rocha - LVL 02</h1>
+                <p>HTML - CSS - C++ - Robótica</p>
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <a class="nav-button" href="#me-conhecendo-melhor">Me Conhecendo Melhor</a>
+            <a class="nav-button" href="#minha-experiencia">Minha Experiência</a>
+            <a class="nav-button" href="#achievements">Achievements</a>
+        </div>
+        
+        <div class="section" id="me-conhecendo-melhor">
+            <h2>Me conhecendo melhor</h2>
+            <p>Olá! Sou Arthur Moura Rocha, apaixonado por tecnologia, desenvolvimento de software e todo o universo da programação. Atualmente, estou cursando Ciências da Computação, onde tenho a chance de explorar temas que sempre despertaram minha curiosidade e de desenvolver habilidades em várias linguagens e ferramentas de desenvolvimento.</p>
+            <p>Gosto de criar projetos que unem funcionalidade e design, sempre com foco em melhorar a experiência do usuário. Nos meus momentos de lazer, adoro jogar, especialmente Red Dead Redemption 2, um dos meus jogos favoritos. Também sou entusiasta de hardware e estou sempre em busca de novas maneiras de aprimorar meus conhecimentos e habilidades.</p>
+            <p>Sinta-se à vontade para explorar o site e conhecer mais sobre meus projetos e interesses.</p>
+        </div>
+
+        <div class="section" id="minha-experiencia">
+            <h2>Minha Experiência</h2>
+            <p>Ao longo dos últimos anos, venho adquirindo experiência prática no desenvolvimento web, com foco em criar interfaces intuitivas e eficientes. Tenho conhecimento em HTML, CSS e JavaScript, e já desenvolvi projetos que envolvem desde o design visual até a funcionalidade dos sites. Recentemente, trabalhei em projetos pessoais e acadêmicos, como a criação de uma loja virtual, onde pude aplicar técnicas de front-end e back-end.</p>
+            <p>Além disso, minha formação em Ciências da Computação me trouxe uma base sólida em algoritmos, estruturas de dados e lógica de programação, elementos fundamentais para o desenvolvimento de soluções eficazes. Cada projeto é uma nova oportunidade para aprender e aprimorar minhas habilidades, e estou sempre aberto a novos desafios que me ajudem a evoluir como profissional e programador.</p>
+        </div>
+
+        <div class="section" id="achievements">
+            <h2>Achievements</h2>
+            <div class="achievements">
+                <div class="achievement-item" onclick="toggleContent('html-content')">
+                    <h3>HTML</h3>
+                    <img class="achievement-pic" src="img/HTML.png" alt="HTML">
+                </div>
+                <div id="html-content" class="achievement-content">
+                    <p>Meu foco principal é o desenvolvimento web, onde tenho experiência com HTML, CSS e JavaScript para construir sites funcionais e visualmente atraentes. Com uma abordagem voltada para o design responsivo e a experiência do usuário, crio projetos que se adaptam a diferentes dispositivos e são fáceis de navegar. Além disso, venho trabalhando em projetos práticos, como uma loja virtual, o que tem me ajudado a aprimorar habilidades tanto de front-end quanto de back-end.</p>
+                </div>
+
+                <div class="achievement-item" onclick="toggleContent('cpp-content')">
+                    <h3>C++</h3>
+                    <img class="achievement-pic" src="img/C++.png" alt="C++">
+                </div>
+                <div id="cpp-content" class="achievement-content">
+                    <p>Tenho uma base de conhecimento em C++, adquirida através de meus estudos em Ciências da Computação. Essa linguagem me permitiu entender conceitos fundamentais de programação, como manipulação de memória, estruturas de dados e programação orientada a objetos. Embora meu foco atual esteja mais voltado para o desenvolvimento web, considero o C++ uma ferramenta valiosa para aprimorar a eficiência e a lógica nos meus projetos.</p>
+                </div>
+
+                <div class="achievement-item" onclick="toggleContent('robotics-content')">
+                    <h3>Robótica</h3>
+                    <img class="achievement-pic" src="img/ROBOTICA.png" alt="Robótica">
+                </div>
+                <div id="robotics-content" class="achievement-content">
+                    <p>Tenho um interesse especial por robótica, onde já explorei conceitos como automação, sensores e controle de sistemas. Nos estudos de Ciências da Computação, aprendi a base de programação para robôs e dispositivos autônomos, incluindo a integração entre hardware e software para executar tarefas específicas. Esse conhecimento em robótica ampliou minha visão sobre o potencial da tecnologia para resolver problemas práticos e inovar em diversas áreas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS.js"></script>
+</body>
+</html>
